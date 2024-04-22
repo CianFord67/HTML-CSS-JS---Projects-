@@ -1,0 +1,184 @@
+h1{
+    
+    text-align:center;
+}
+
+body{
+    background-color: gray;
+}
+
+#circle{
+
+    width:500px;
+    height: 500px;
+    background: rgb(32,32,36) ;
+    border-radius: 50%;
+    position: fixed;
+  top: 250px;
+  left: 500px;
+  margin: -25px 0 0 -25px;
+  outline: solid 12px black ;
+  z-index: -1;
+    
+
+}
+
+
+#circle1
+{
+    width:270px;
+    height: 270px;
+    background: red;
+    border-radius: 50%;
+    margin-top: 50px;
+    position:fixed;
+    left:840px;
+    outline: solid 15px black;
+    z-index:2;
+    cursor: pointer;
+
+    
+
+}
+
+#circle1.hover-effect{
+
+    background:#FF6666 !important;
+}
+
+#circle2{
+    width:270px;
+    height: 270px;
+    background: green;
+    border-radius: 50%;
+    margin-top: 50px;
+    outline: solid 15px black;
+    position:fixed;
+    left:350px;
+    cursor: pointer;
+}
+
+#circle2.hover-effect{
+
+    background: #33FF33!important;
+}
+
+#circle3{
+    width:270px;
+    height: 270px;
+    background: yellow;
+    border-radius: 50%;
+    margin-top: 470px;
+    outline: solid 15px black;
+    position:fixed;
+    left:340px;
+    cursor: pointer;
+}
+
+#circle3.hover-effect{
+
+    background:#FFFFCC !important;
+}
+
+#circle4{
+    width:270px;
+    height: 270px;
+    background: blue;
+    border-radius: 50%;
+    margin-top: 470px;
+    outline: solid 15px black;
+    position:fixed;
+    left:840px;
+    cursor: pointer;
+}
+
+#circle4.hover-effect{
+
+    background:#3399FF !important;
+}
+
+
+
+#button1 {
+    transform: scale(3);
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px; /* Half of button height */
+    margin-left: -35px; /* Half of button width */
+    
+}
+
+#BestScore {
+    transform: scale(3);
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px; /* Half of button height */
+    margin-left: -180px; /* Half of button width */
+}
+#CurrentLevel {
+    transform: scale(3);
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px; /* Half of button height */
+    margin-left: 130px; /* Half of button width */
+}
+
+
+#circle5{
+    width:40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+    margin-top: 440px;
+    outline: solid 4px black;
+    position:fixed;
+    left:710px;
+}
+
+
+
+#button1 {
+    transform: scale(3);
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px; /* Half of button height */
+    margin-left: -35px; /* Half of button width */
+    
+}
+
+#button1 {
+    transform: scale(3);
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px; /* Half of button height */
+    margin-left: -35px; /* Half of button width */
+    
+}
+
+#button1 {
+    transform: scale(3);
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px; /* Half of button height */
+    margin-left: -35px; /* Half of button width */
+    
+}
+
+
+.selected {
+    background-color: white !important; 
+}
+
+
