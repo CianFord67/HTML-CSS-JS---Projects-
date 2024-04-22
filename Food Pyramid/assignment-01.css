@@ -1,0 +1,223 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+    .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid #FF0000;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 55px;
+    
+    z-index: -1; /* Set a lower z-index value */
+    
+    
+}
+
+    .trapezoid1 {
+        border-bottom: 120px solid #FF8000;
+        border-left: 110px solid transparent;
+        border-right: 110px solid transparent;
+        height: 0;
+        width: 300px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 75px;
+        z-index: -1;
+        
+      
+       
+        
+        
+    }
+
+    .trapezoid2 {
+        border-bottom: 120px solid #FFFF33;
+        border-left: 115px solid transparent;
+        border-right: 115px solid transparent;
+        
+        height: 0;
+        width: 530px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 90px;
+        z-index: -1;
+        
+    }
+
+    .trapezoid3 {
+        border-bottom: 120px solid rgb(5, 212, 235);
+        border-left: 110px solid transparent;
+        border-right: 110px solid transparent;
+        height: 0;
+        width: 765px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 95px;
+        z-index: -1;
+        
+    }
+    .trapezoid4 {
+        border-bottom: 120px solid #7F00FF;
+        border-left: 105px solid transparent;
+        border-right: 105px solid transparent;
+        height: 0;
+        width: 995px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100px;
+        z-index: -1;
+        
+    }
+    .trapezoid5 {
+        border-bottom: 120px solid #00FF00;
+        border-left: 110px solid transparent;
+        border-right: 110px solid transparent;
+        height: 0;
+        width: 1220px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 105px;
+        z-index: -1;
+        
+    }
+
+    #container {
+
+    height: 30px;
+    width: 110px;
+    border: 5px solid #170909;
+    margin: 70px auto;
+    background-color:rgb(254, 254, 254);
+    border-radius: 30px;
+    text-align: center;
+    
+    
+    }
+
+    
+
+    #border {
+
+    height: 50px;
+    width: 1000px;
+    border: 10px solid #170909;
+    margin: -25px auto;
+    background-color:rgb(254, 254, 254);
+
+    text-align: center;
+
+}
+
+
+
+    
+    
+
+
+
+    #Number
+    {
+        height: 5px;
+        width: 5px; 
+        margin: 10px auto;
+        margin-top: 5px;
+        border-radius: 30px;
+        
+    }
+
+  
+    #increase{
+        
+            display: none;
+            height: 40px;
+            width: 50px;
+            margin-top: 10px;
+            text-align: center;
+            
+        
+    }
+
+
+
+
+
+    #decrease {
+        display: none;
+        height: 40px;
+        width: 50px;
+        margin-top: -40px;
+        margin-left:60px;
+        text-align: center;
+        
+    }
+    
+    .button1 {
+        margin-top: -690px;
+        align-content: center;
+    }
+    
+    .button2 {
+        margin-top: 320px;
+        position: fixed;
+        margin-left: 600px;
+        align-content: center;
+    }
+    
+    .button3 {
+        margin-top: 80px;
+        align-content: center;
+    }
+    
+    .button4 {
+        margin-top: 95px;
+        align-content: center;
+    }
+    
+    .button5 {
+        margin-top: 80px;
+        align-content: center;
+    }
+    
+    .button6 {
+        margin-top: 80px;
+        align-content: center;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        color: black;
+        border-style: dashed;
+        border-width: 6px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-color: black;
+    }
+    
+    /* Adjusted trigger element */
+    #container:hover #increase,
+    #container:hover #decrease {
+        display: block;
+        
+    }
+
+    #time {
+
+        text-align: center;
+        margin-top: 50px;
+        transform: scale(3);
+        
+    }
+    
+  
